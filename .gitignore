@@ -1,0 +1,11 @@
+# 原始含隐私信息的 CV 不推送到公开仓库
+姜金-北京大学-博二-*.pdf
+*_副本.pdf
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

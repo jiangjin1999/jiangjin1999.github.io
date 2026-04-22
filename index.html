@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jin Jiang — Peking University</title>
+  <meta name="description" content="Jin Jiang (姜金) — Ph.D. candidate at Peking University, working on foundation model reasoning, code intelligence, and vision-language models." />
+  <meta name="author" content="Jin Jiang" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230e0d0b'/%3E%3Ctext x='50' y='68' font-family='Cormorant Garamond,Georgia,serif' font-size='60' font-style='italic' fill='%23c9a66b' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav__brand">J.Jiang</a>
+    <nav class="nav__links">
+      <a href="#about"        data-en="About"        data-zh="简介"></a>
+      <a href="#publications" data-en="Publications" data-zh="论文"></a>
+      <a href="#research"     data-en="Research"     data-zh="研究"></a>
+      <a href="#news"         data-en="News"         data-zh="动态"></a>
+      <a href="#contact"      data-en="Contact"      data-zh="联系"></a>
+    </nav>
+    <div class="nav__lang">
+      <button class="lang-btn is-active" data-lang-switch="en">EN</button>
+      <span class="lang-sep">/</span>
+      <button class="lang-btn" data-lang-switch="zh">中</button>
+    </div>
+    <button class="nav__burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__inner">
+      <p class="hero__kicker"
+         data-en="Ph.D. Candidate · Peking University"
+         data-zh="北京大学 · 博士研究生"></p>
+      <h1 class="hero__title">
+        <span data-en="Jin" data-zh="姜"></span>
+        <span class="hero__title--italic" data-en="Jiang" data-zh="金"></span>
+      </h1>
+      <p class="hero__tagline"
+         data-en="Foundation model reasoning — logic, mathematics, and code. Building models that think, verify, and correct themselves."
+         data-zh="研究基础模型的复杂推理——逻辑、数学与代码。构建会思考、能验证、可自我纠错的模型。"></p>
+      <div class="hero__cta">
+        <a href="#about" class="btn btn--ghost"
+           data-en="Learn more" data-zh="了解更多"></a>
+        <a href="#publications" class="btn btn--solid"
+           data-en="Publications" data-zh="查看论文"></a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span data-en="Scroll" data-zh="向下"></span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section section--about">
+    <div class="section__header">
+      <span class="section__index">01</span>
+      <h2 class="section__title" data-en="About" data-zh="简介"></h2>
+    </div>
+    <div class="about__grid">
+      <div class="about__photo">
+        <div class="about__photo-frame"></div>
+      </div>
+      <div class="about__body">
+        <p class="about__lead"
+           data-en="I am a second-year Ph.D. candidate at Peking University, jointly with the School of Intelligence Science and Technology and the Wangxuan Institute of Computer Technology, advised by Prof. Liangcai Gao."
+           data-zh="我是北京大学智能学院与王选计算机研究所联合培养的博士二年级学生，导师为高良才教授。"></p>
+        <p
+           data-en="My research centers on foundation model reasoning — particularly complex logical, mathematical, and code reasoning — with an emphasis on data synthesis, self-correction, verification, and agent trajectory analysis. I aim to turn the messy, iterative problems that surface during real model development into focused research questions."
+           data-zh="研究方向聚焦于基础模型的复杂推理——逻辑、数学与代码推理——关注数据合成、自发纠错、验证能力与智能体轨迹分析，致力于将模型研发迭代中发现的真实问题提炼为学术课题。"></p>
+        <p
+           data-en="Before PKU I received my M.S. from Beijing University of Posts and Telecommunications (2021–2024) and a second B.A. in Economics from the National School of Development at PKU during the same period. I completed my B.S. at China University of Mining and Technology, Beijing (2017–2021), graduating first in class with a GPA of 90.15/100."
+           data-zh="读博之前，我于 2021–2024 年在北京邮电大学人工智能学院获得硕士学位，同期在北京大学国家发展研究院修读经济学双学位；本科就读于中国矿业大学（北京）理学院（2017–2021），以 90.15/100 的成绩在班级 31 人中排名第一。"></p>
+        <ul class="about__meta">
+          <li>
+            <span class="about__meta-k" data-en="Affiliation" data-zh="单位"></span>
+            <span class="about__meta-v" data-en="Peking University" data-zh="北京大学"></span>
+          </li>
+          <li>
+            <span class="about__meta-k" data-en="Advisor" data-zh="导师"></span>
+            <span class="about__meta-v" data-en="Prof. Liangcai Gao" data-zh="高良才 教授"></span>
+          </li>
+          <li>
+            <span class="about__meta-k" data-en="Email" data-zh="邮箱"></span>
+            <span class="about__meta-v"><a href="mailto:jiangjin@stu.pku.edu.cn">jiangjin@stu.pku.edu.cn</a></span>
+          </li>
+          <li>
+            <span class="about__meta-k" data-en="CV" data-zh="简历"></span>
+            <span class="about__meta-v"><a href="cv.pdf" target="_blank">PDF ↗</a></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICATIONS ============ -->
+  <section id="publications" class="section section--pub">
+    <div class="section__header">
+      <span class="section__index">02</span>
+      <h2 class="section__title" data-en="Publications" data-zh="论文"></h2>
+    </div>
+
+    <p class="pub-note"
+       data-en="* denotes equal contribution. Selected first-author / co-first-author works shown below."
+       data-zh="* 表示共同一作。下列为第一作者或共同第一作者的代表性工作。"></p>
+
+    <ul class="pub-list">
+
+      <!-- 2025 -->
+      <li class="pub">
+        <div class="pub__year">2025</div>
+        <div class="pub__body">
+          <h3 class="pub__title">Uni-MuMER: Unified Multi-Task Fine-Tuning of Vision-Language Model for Handwritten Mathematical Expression Recognition</h3>
+          <p class="pub__authors"><strong>Jin Jiang*</strong>, et al.</p>
+          <p class="pub__venue"><em>NeurIPS 2025</em> · <span class="pub__tag pub__tag--spot">Spotlight</span> · <span data-en="Co-first author" data-zh="共同一作"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">arXiv</a>
+            <a href="#">Code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2025</div>
+        <div class="pub__body">
+          <h3 class="pub__title">FormalEval: Evaluating the Formal Language Abilities of Large Language Models</h3>
+          <p class="pub__authors"><strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>EMNLP 2025</em> · <span class="pub__tag pub__tag--oral">Oral</span> · <span data-en="First author" data-zh="第一作者"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">arXiv</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2025</div>
+        <div class="pub__body">
+          <h3 class="pub__title">LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning</h3>
+          <p class="pub__authors"><strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>ACL 2025</em> · <span data-en="First author" data-zh="第一作者"></span></p>
+          <p class="pub__note"
+             data-en="Cited by the DeepSeek CodeI/O technical report; design adopted in Meituan's in-house models."
+             data-zh="被 DeepSeek CodeI/O 技术报告引用；相关设计在美团自研模型中被采用。"></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">arXiv</a>
+            <a href="#">Code</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2025</div>
+        <div class="pub__body">
+          <h3 class="pub__title">S³cMath: Spontaneous Step-level Self-correction Makes Large Language Models Better Mathematical Reasoners</h3>
+          <p class="pub__authors">Y. Yan, <strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>AAAI 2025</em> · <span data-en="Second author" data-zh="第二作者"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">arXiv</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2025</div>
+        <div class="pub__body">
+          <h3 class="pub__title"
+              data-en="AI for Health: Foundation-Model-Based Biological Age and Disease-Risk Prediction"
+              data-zh="AI4Health：基于大模型的衰老 / 生理年龄与疾病风险预测"></h3>
+          <p class="pub__authors"><strong>Jin Jiang*</strong>, et al.</p>
+          <p class="pub__venue"><em>Nature Medicine</em> · <span data-en="Cover · Co-first author" data-zh="封面 · 共同一作"></span></p>
+          <div class="pub__links">
+            <a href="#">Paper</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- 2024 -->
+      <li class="pub">
+        <div class="pub__year">2024</div>
+        <div class="pub__body">
+          <h3 class="pub__title">Contextual Modeling for Document-level ASR Error Correction</h3>
+          <p class="pub__authors"><strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>COLING 2024</em> · <span data-en="First author" data-zh="第一作者"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">Anthology</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2024</div>
+        <div class="pub__body">
+          <h3 class="pub__title">Cross-Modal Training for ASR Error Correction with Contrastive Learning</h3>
+          <p class="pub__authors"><strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>ICASSP 2024</em> · <span data-en="First author" data-zh="第一作者"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">IEEE</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="pub">
+        <div class="pub__year">2024</div>
+        <div class="pub__body">
+          <h3 class="pub__title">History Matters: Temporal Knowledge Editing in Large Language Models</h3>
+          <p class="pub__authors">X. Yin, <strong>Jin Jiang</strong>, et al.</p>
+          <p class="pub__venue"><em>AAAI 2024</em> · <span data-en="Second author" data-zh="第二作者"></span></p>
+          <div class="pub__links">
+            <a href="#">PDF</a>
+            <a href="#">arXiv</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="pub-more"
+       data-en="Ongoing works: INFTYTHINK, VerifyBench, MathFimer, Prejudge-Before-Think, and others under submission / review at ICLR 2026, EMNLP 2025, AAAI 2025."
+       data-zh="在研 / 投稿中的工作：INFTYTHINK、VerifyBench、MathFimer、Prejudge-Before-Think 等，投稿于 ICLR 2026、EMNLP 2025、AAAI 2025 等会议。"></p>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section id="research" class="section section--research">
+    <div class="section__header">
+      <span class="section__index">03</span>
+      <h2 class="section__title" data-en="Research" data-zh="研究"></h2>
+    </div>
+
+    <div class="research-grid">
+      <article class="topic">
+        <div class="topic__num">I.</div>
+        <h3 class="topic__title"
+            data-en="Complex Reasoning in Foundation Models"
+            data-zh="基础模型的复杂推理"></h3>
+        <p class="topic__desc"
+           data-en="Data synthesis, training recipes, and evaluation for logical, mathematical, and code reasoning. LogicPro and S³cMath explore program-guided reasoning and spontaneous step-level self-correction."
+           data-zh="围绕逻辑、数学、代码推理，研究数据合成、训练策略与评测方法。LogicPro 与 S³cMath 分别探索程序引导的推理学习与步骤级自发纠错。"></p>
+      </article>
+
+      <article class="topic">
+        <div class="topic__num">II.</div>
+        <h3 class="topic__title"
+            data-en="Code Intelligence & Agent Trajectories"
+            data-zh="代码智能与智能体轨迹"></h3>
+        <p class="topic__desc"
+           data-en="Verifiable code data synthesis (Code-T1) and systematic rollout analysis for SWE-bench-style code agents — turning failure modes into training signal."
+           data-zh="可验证的代码数据合成（Code-T1），以及面向 SWE-bench 等代码智能体任务的 rollout 轨迹分析与训练反馈——把失败模式转化为训练信号。"></p>
+      </article>
+
+      <article class="topic">
+        <div class="topic__num">III.</div>
+        <h3 class="topic__title"
+            data-en="Verification & Formal Language Ability"
+            data-zh="验证与形式语言能力"></h3>
+        <p class="topic__desc"
+           data-en="FormalEval probes how LLMs handle formal languages. Broader interest in evaluators, verifiers, and the closed loop between generation and verification."
+           data-zh="FormalEval 探究大模型对形式语言的处理能力；更广泛地关注评估器、验证器，以及生成与验证之间的闭环。"></p>
+      </article>
+
+      <article class="topic">
+        <div class="topic__num">IV.</div>
+        <h3 class="topic__title"
+            data-en="Vision-Language & AI for Science"
+            data-zh="视觉-语言与 AI for Science"></h3>
+        <p class="topic__desc"
+           data-en="Uni-MuMER unifies multiple tasks for handwritten mathematical expression recognition. Collaborations with Tsinghua Vanke School of Public Health apply foundation models to biological-age and disease-risk prediction."
+           data-zh="Uni-MuMER 提出视觉-语言模型的多任务统一微调，用于手写数学公式识别；与清华大学万科公卫学院合作，将基础模型用于生理年龄与疾病风险预测。"></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section id="news" class="section section--news">
+    <div class="section__header">
+      <span class="section__index">04</span>
+      <h2 class="section__title" data-en="News" data-zh="动态"></h2>
+    </div>
+
+    <ul class="news-list">
+      <li class="news-item">
+        <time class="news-item__date">Nov 2025</time>
+        <p class="news-item__text"
+           data-en="Joined Tencent Hunyuan (Qingyun Program) as a research intern, working on code-data synthesis and code-agent trajectory analysis."
+           data-zh="加入腾讯混元大模型团队（青云实习），参与代码数据合成与代码智能体轨迹分析相关工作。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">Sep 2025</time>
+        <p class="news-item__text"
+           data-en="“Uni-MuMER” accepted at NeurIPS 2025 as a Spotlight."
+           data-zh="论文《Uni-MuMER》被 NeurIPS 2025 接收为 Spotlight。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">Aug 2025</time>
+        <p class="news-item__text"
+           data-en="“FormalEval” accepted at EMNLP 2025 as an Oral."
+           data-zh="论文《FormalEval》被 EMNLP 2025 接收为 Oral。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">May 2025</time>
+        <p class="news-item__text"
+           data-en="“LogicPro” accepted at ACL 2025. The method is cited by the DeepSeek CodeI/O technical report."
+           data-zh="论文《LogicPro》被 ACL 2025 接收；该方法被 DeepSeek CodeI/O 技术报告引用。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">Dec 2024</time>
+        <p class="news-item__text"
+           data-en="“S³cMath” accepted at AAAI 2025."
+           data-zh="论文《S³cMath》被 AAAI 2025 接收。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">Sep 2024</time>
+        <p class="news-item__text"
+           data-en="Started Ph.D. at Peking University, advised by Prof. Liangcai Gao."
+           data-zh="入学北京大学，师从高良才教授，开启博士阶段。"></p>
+      </li>
+      <li class="news-item">
+        <time class="news-item__date">Mar 2024</time>
+        <p class="news-item__text"
+           data-en="Two first-author papers on ASR error correction accepted at ICASSP 2024 and COLING 2024."
+           data-zh="两篇语音识别后纠错方向的一作论文分别被 ICASSP 2024 与 COLING 2024 接收。"></p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section--contact">
+    <div class="section__header">
+      <span class="section__index">05</span>
+      <h2 class="section__title" data-en="Contact" data-zh="联系"></h2>
+    </div>
+
+    <div class="contact__inner">
+      <p class="contact__lead"
+         data-en="Reach out for research collaborations, discussions on reasoning and code agents, or a simple hello."
+         data-zh="欢迎就科研合作、推理与代码智能体相关话题，或者任何想法来信交流。"></p>
+
+      <div class="contact__email">
+        <a href="mailto:jiangjin@stu.pku.edu.cn">jiangjin@stu.pku.edu.cn</a>
+      </div>
+
+      <ul class="contact__links">
+        <li><a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://github.com/jiangjin1999" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://x.com/JiangJin_PKU" target="_blank" rel="noopener">X / Twitter</a></li>
+        <li><a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__row">
+      <span data-en="© 2026 Jin Jiang. Built with restraint."
+            data-zh="© 2026 姜金. 极简构建."></span>
+      <a href="#top" data-en="Back to top ↑" data-zh="回到顶部 ↑"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
