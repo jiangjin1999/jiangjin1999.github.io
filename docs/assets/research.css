@@ -1,0 +1,34 @@
+.research-experiment { border-top: 1px solid var(--rule); margin-bottom: 0; }
+.research-preview-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 23px 0 4px; }
+.research-preview-heading h2 { font: 500 10px/1.5 var(--sans); text-transform: uppercase; letter-spacing: 1.6px; color: var(--muted); }
+.research-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 56px; padding: 23px 0; }
+.research-row + .research-row { border-top: 1px solid var(--light-rule); }
+.research-overview { min-width: 0; }
+.research-overview h3 { font: 500 25px/1.2 var(--serif); letter-spacing: -.4px; margin: 0 0 10px; }
+.research-overview > p { margin: 0; color: #59656e; font-size: 13px; line-height: 1.65; max-width: 47ch; }
+.research-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 12px; margin-bottom: 10px; }
+.research-name h3 { margin: 0; }
+.research-current { color: var(--accent); font-size: 9px; text-transform: uppercase; letter-spacing: .9px; white-space: nowrap; }
+.research-works { margin: 0; display: grid; gap: 11px; align-content: start; padding-top: 3px; }
+.research-works dt { color: var(--muted); font-size: 10px; line-height: 1.5; margin-bottom: 1px; }
+.research-works dd { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 18px; margin: 0; }
+.research-works a { display: inline-block; font-size: 13px; line-height: 1.6; padding: 2px 0; }
+.research-works a:focus-visible { outline-offset: 3px; }
+.research-works .research-single-work a { display: block; }
+.research-work-note { display: block; color: var(--muted); font-size: 11px; line-height: 1.5; margin-top: 1px; }
+@media (max-width: 800px) {
+  .research-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 30px; }
+  .research-overview h3 { font-size: 23px; }
+  .research-works dd { column-gap: 14px; }
+}
+@media (max-width: 600px) {
+  .research-experiment { margin-bottom: 0; }
+  .research-preview-heading { align-items: flex-start; gap: 16px; padding-top: 22px; }
+  .research-preview-heading h2 { font-size: 9px; }
+  .research-row { display: block; padding: 23px 0; }
+  .research-overview h3 { font-size: 25px; }
+  .research-overview > p { font-size: 13px; max-width: none; }
+  .research-works { margin-top: 16px; padding: 0 0 0 14px; border-left: 1px solid #c9d8e3; gap: 10px; }
+  .research-works dt { font-size: 10px; }
+  .research-works a { min-height: 32px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 5px; padding: 3px 0; }
+}
