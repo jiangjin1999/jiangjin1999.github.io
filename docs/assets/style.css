@@ -104,6 +104,7 @@ h1 { font: 400 49px/1.13 var(--serif); letter-spacing: -1.5px; margin-bottom: 24
 .paper h3 a { color: var(--ink); }
 .paper h3 a:hover { color: var(--accent); }
 .authors { color: var(--muted); font-size: 12px; line-height: 1.65; margin-bottom: 9px; }
+.author-with-role { white-space: nowrap; }
 .authors strong, .full-authors strong { color: var(--ink); font-weight: 650; border-bottom: 1px solid #b6b4ae; }
 sup { font-size: .85em; line-height: 0; }
 .paper-summary { font-family: var(--serif); font-style: italic; font-size: 14px; line-height: 1.6; color: #646561; margin-bottom: 9px; }
